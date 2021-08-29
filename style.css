@@ -1,0 +1,13 @@
+body{
+    background-image:url("background.jpg") ;
+}
+
+canvas{
+    animation-name: example;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+from{box-shadow: 1px 1px 38px #FF00BF;}
+to{box-shadow: 1px 1px 38px limegreen;}
+}
